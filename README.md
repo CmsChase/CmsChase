@@ -13,7 +13,6 @@ A growing record of fixes I've contributed to other projects.
 | Project | Stars | Contribution | Status |
 | :-- | :-- | :-- | :-- |
 | [REA](https://github.com/morluto/rea) | ![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85) | [#1807](https://github.com/morluto/rea/pull/1807) — Preserve LF text checkouts on Windows through a targeted `.gitattributes` fix. | **Merged** |
-| [Neovim](https://github.com/neovim/neovim) | ![Neovim stars](https://img.shields.io/github/stars/neovim/neovim?style=flat-square&label=%E2%98%85) | [#42307](https://github.com/neovim/neovim/pull/42307) — Fix Windows UNC-path handling in Lua module loading, with regression coverage. | **Submitted** |
 
 <!--
 ADD FUTURE CONTRIBUTIONS ABOVE THIS COMMENT.
