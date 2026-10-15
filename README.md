@@ -1,42 +1,34 @@
 # Hi there, I'm Chase.
 
-I'm a currently high school student coding the research by myself and contributing to open-source repositories.
+I'm a high school student building software independently and contributing bug fixes to open-source projects.
 
-[**Pull Requests**](https://github.com/pulls?q=is%3Apr+author%3ACmsChase) · [**Merged PRs**](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ACmsChase) · [**Repositories**](https://github.com/CmsChase?tab=repositories)
-
-</div>
+[**Pull Requests**](https://github.com/pulls?q=is%3Apr+author%3ACmsChase) · [**Merged PRs**](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ACmsChase) · [**Issues**](https://github.com/issues?q=is%3Aissue+author%3ACmsChase) · [**Repositories**](https://github.com/CmsChase?tab=repositories)
 
 ## Open-source contributions
 
-A growing record of fixes I've contributed to other projects.
+Selected fixes I've contributed across open-source projects.
 
 | Project | Stars | Contribution | Status |
 | :-- | :-- | :-- | :-- |
-| [REA](https://github.com/morluto/rea) | ![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85) | [#1807](https://github.com/morluto/rea/pull/1807) — Preserve LF text checkouts on Windows through a targeted `.gitattributes` fix. | **Merged** |
+| [REA](https://github.com/morluto/rea) | ![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85) | [#1807](https://github.com/morluto/rea/pull/1807) — Keep text checkouts LF on Windows with a focused `.gitattributes` fix. | **Merged** |
+| [REA](https://github.com/morluto/rea) | ![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85) | [#3319](https://github.com/morluto/rea/pull/3319) — Ignore malformed Gemini settings in untrusted workspaces; [incorporated into main](https://github.com/morluto/rea/commit/aade9bbcb79aa8504ab6921b25f8ab082aba78e7) with co-author credit and [6.5.0 release recognition](https://github.com/morluto/rea/pull/1693). | **Incorporated upstream** |
+| [REA](https://github.com/morluto/rea) | ![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85) | [#3469](https://github.com/morluto/rea/pull/3469) — Reactivate OpenCode V2 registrations during approved setup despite inherited disabled flags. | **Open** |
+| [REA](https://github.com/morluto/rea) | ![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85) | [#3785](https://github.com/morluto/rea/pull/3785) — Edit aliased Hermes YAML server tables while preserving anchors and other consumers. | **Open** |
+| [Deno](https://github.com/denoland/deno) | ![Deno stars](https://img.shields.io/github/stars/denoland/deno?style=flat-square&label=%E2%98%85) | [#37017](https://github.com/denoland/deno/pull/37017) — Resolve npm subpath declaration files correctly in `deno check`. | **Open** |
+| [filetime](https://github.com/alexcrichton/filetime) | ![filetime stars](https://img.shields.io/github/stars/alexcrichton/filetime?style=flat-square&label=%E2%98%85) | [#125](https://github.com/alexcrichton/filetime/pull/125) — Fix Windows timestamp updates on read-only files using attribute-write access. | **Open** |
 
 <!--
-ADD FUTURE CONTRIBUTIONS ABOVE THIS COMMENT.
-Copy this row, replacing the project, link, description, and status:
-
-| [Project](https://github.com/OWNER/REPO) | ![Stars](https://img.shields.io/github/stars/OWNER/REPO?style=flat-square&label=%E2%98%85) | [#123](https://github.com/OWNER/REPO/pull/123) — One sentence about what your change actually fixes. | **Submitted / Merged** |
-
-Keep "Submitted" until a PR has been merged. Change the status when appropriate.
+Add future contributions above this comment.
+Use "Merged" only when the PR is merged. Use "Incorporated upstream"
+when the fix landed separately, with a link to the upstream commit.
 -->
 
 ## What I work on
 
-- **Bug fixing:** Reproducing edge cases and finding minimal, testable solutions.
-- **Cross-platform reliability:** Especially Windows paths, builds, and development tooling.
-- **Programming:** C++, Python, Lua, Git, and related tooling.
-- **Open source:** Learning from maintainers, review feedback, and real-world codebases.
-
-## GitHub activity
-
-My public contribution history is available directly on GitHub:
-
-- [Pull requests I've opened](https://github.com/pulls?q=is%3Apr+author%3ACmsChase)
-- [Merged pull requests](https://github.com/pulls?q=is%3Apr+is%3Amerged+author%3ACmsChase)
-- [Issues I've opened](https://github.com/issues?q=is%3Aissue+author%3ACmsChase)
+- **Debugging:** Reproducing edge cases and building focused, testable fixes.
+- **Cross-platform reliability:** Windows paths, filesystems, configuration, and developer tools.
+- **Programming:** C++, Python, TypeScript, Rust, Lua, and Git.
+- **Open source:** Learning from code reviews and contributing improvements upstream.
 
 ## Outside the code
 
@@ -45,5 +37,3 @@ My public contribution history is available directly on GitHub:
 ---
 
 ![Last updated](https://img.shields.io/github/last-commit/CmsChase/CmsChase?label=Last%20updated&style=flat-square)
-
-</div>
