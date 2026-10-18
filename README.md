@@ -10,12 +10,12 @@ Selected fixes I've contributed across open-source projects.
 
 | Project | Stars | Contribution | Status |
 | :-- | :-- | :-- | :-- |
-| [REA](https://github.com/morluto/rea) | ![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85) | [#1807](https://github.com/morluto/rea/pull/1807) — Keep text checkouts LF on Windows with a focused `.gitattributes` fix. | **Merged** |
-| [REA](https://github.com/morluto/rea) | ![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85) | [#3319](https://github.com/morluto/rea/pull/3319) — Ignore malformed Gemini settings in untrusted workspaces; [incorporated into main](https://github.com/morluto/rea/commit/aade9bbcb79aa8504ab6921b25f8ab082aba78e7) with co-author credit and [6.5.0 release recognition](https://github.com/morluto/rea/pull/1693). | **Incorporated upstream** |
-| [REA](https://github.com/morluto/rea) | ![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85) | [#3469](https://github.com/morluto/rea/pull/3469) — Reactivate OpenCode V2 registrations during approved setup despite inherited disabled flags. | **Open** |
-| [REA](https://github.com/morluto/rea) | ![REA stars](https://img.shields.io/github/stars/morluto/rea?style=flat-square&label=%E2%98%85) | [#3785](https://github.com/morluto/rea/pull/3785) — Edit aliased Hermes YAML server tables while preserving anchors and other consumers. | **Open** |
-| [Deno](https://github.com/denoland/deno) | ![Deno stars](https://img.shields.io/github/stars/denoland/deno?style=flat-square&label=%E2%98%85) | [#37017](https://github.com/denoland/deno/pull/37017) — Resolve npm subpath declaration files correctly in `deno check`. | **Open** |
-| [filetime](https://github.com/alexcrichton/filetime) | ![filetime stars](https://img.shields.io/github/stars/alexcrichton/filetime?style=flat-square&label=%E2%98%85) | [#125](https://github.com/alexcrichton/filetime/pull/125) — Fix Windows timestamp updates on read-only files using attribute-write access. | **Open** |
+| [REA](https://github.com/morluto/rea) | ![REA stars](https://raw.githubusercontent.com/CmsChase/CmsChase/main/assets/stars-rea.svg) | [#1807](https://github.com/morluto/rea/pull/1807) — Keep text checkouts LF on Windows with a focused `.gitattributes` fix. | **Merged** |
+| [REA](https://github.com/morluto/rea) | ![REA stars](https://raw.githubusercontent.com/CmsChase/CmsChase/main/assets/stars-rea.svg) | [#3319](https://github.com/morluto/rea/pull/3319) — Ignore malformed Gemini settings in untrusted workspaces; [incorporated into main](https://github.com/morluto/rea/commit/aade9bbcb79aa8504ab6921b25f8ab082aba78e7) with co-author credit and [6.5.0 release recognition](https://github.com/morluto/rea/pull/1693). | **Incorporated upstream** |
+| [REA](https://github.com/morluto/rea) | ![REA stars](https://raw.githubusercontent.com/CmsChase/CmsChase/main/assets/stars-rea.svg) | [#3469](https://github.com/morluto/rea/pull/3469) — Reactivate OpenCode V2 registrations during approved setup despite inherited disabled flags. | **Open** |
+| [REA](https://github.com/morluto/rea) | ![REA stars](https://raw.githubusercontent.com/CmsChase/CmsChase/main/assets/stars-rea.svg) | [#3785](https://github.com/morluto/rea/pull/3785) — Edit aliased Hermes YAML server tables while preserving anchors and other consumers. | **Open** |
+| [Deno](https://github.com/denoland/deno) | ![Deno stars](https://raw.githubusercontent.com/CmsChase/CmsChase/main/assets/stars-deno.svg) | [#37017](https://github.com/denoland/deno/pull/37017) — Resolve npm subpath declaration files correctly in `deno check`. | **Open** |
+| [filetime](https://github.com/alexcrichton/filetime) | ![filetime stars](https://raw.githubusercontent.com/CmsChase/CmsChase/main/assets/stars-filetime.svg) | [#125](https://github.com/alexcrichton/filetime/pull/125) — Fix Windows timestamp updates on read-only files using attribute-write access. | **Open** |
 
 <!--
 Add future contributions above this comment.
@@ -36,4 +36,4 @@ when the fix landed separately, with a link to the upstream commit.
 
 ---
 
-![Last updated](https://img.shields.io/github/last-commit/CmsChase/CmsChase?label=Last%20updated&style=flat-square)
+![Last updated](https://raw.githubusercontent.com/CmsChase/CmsChase/main/assets/readme-updated.svg)
