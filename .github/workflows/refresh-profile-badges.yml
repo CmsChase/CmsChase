@@ -1,0 +1,38 @@
+name: Refresh profile badges
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * *'
+  push:
+    paths:
+      - README.md
+      - scripts/generate_badges.py
+      - .github/workflows/refresh-profile-badges.yml
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Generate badges
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/generate_badges.py
+      - name: Commit updated badges
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/stars-*.svg assets/readme-updated.svg
+          if ! git diff --cached --quiet; then
+            git commit -m 'chore: refresh profile badges'
+            git push
+          fi
